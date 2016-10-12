@@ -44,8 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base64UrlEncoding.cs" />
     <Compile Include="HS256Key.cs" />
     <Compile Include="IJwtSignatureKey.cs" />
+    <Compile Include="IJwtService.cs" />
+    <Compile Include="JwtService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RS256Key.cs" />
   </ItemGroup>

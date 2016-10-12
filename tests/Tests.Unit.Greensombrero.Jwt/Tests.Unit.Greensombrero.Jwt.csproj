@@ -56,7 +56,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base64UrlEncodingTests.cs" />
     <Compile Include="HS256KeyTests.cs" />
+    <Compile Include="JwtServiceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RS256KeyTests.cs" />
   </ItemGroup>
